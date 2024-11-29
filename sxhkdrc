@@ -1,0 +1,5 @@
+Print
+	scrot /home/mohammed/Pictures/screenshots/screenshot_%Y_%m_%d_%s.jpg
+
+super + shift + p
+	rofi -show drun -show-icons -font "Mononoki Nerd Font 9"
