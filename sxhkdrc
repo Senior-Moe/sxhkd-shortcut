@@ -1,5 +1,11 @@
 Print
 	scrot /home/mohammed/Pictures/screenshots/screenshot_%Y_%m_%d_%s.jpg
 
+Print + shift
+	scrot -s /home/mohammed/Pictures/screenshots/screenshot_%Y_%m_%d_%s-crop.jpg | xclip -selection clipboard
+
 super + shift + p
 	rofi -show drun -show-icons -font "Mononoki Nerd Font 9"
+
+super + v
+	st -e vim
